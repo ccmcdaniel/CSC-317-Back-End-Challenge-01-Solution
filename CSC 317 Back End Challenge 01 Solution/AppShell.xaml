@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CSC_317_Back_End_Challenge_01_Solution.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CSC_317_Back_End_Challenge_01_Solution"
+    xmlns:pages="clr-namespace:CSC_317_Back_End_Challenge_01_Solution.Pages"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <Tab Title="Notes">
+            <ShellContent ContentTemplate="{DataTemplate pages:NotesPage}"/>
+        </Tab>
+        <Tab Title="Settings">
+            <ShellContent ContentTemplate="{DataTemplate pages:NotesPage}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>
